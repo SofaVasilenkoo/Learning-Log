@@ -1,26 +1,24 @@
-# Learning_Logs
+# Learning Logs
 
 Этот проект представляет собой веб-приложение для создания кратких записей по темам, построенное на базе Django. Приложение позволяет пользователям зарегистрироваться, войти в систему, создавать темы и записи, редактировать и удалять их.
 ## Установка и запуск
 
-1. Клонирование репозитория
-
-   Перейдите в папку, куда будет сохранен проект.
+1. Клонируем репозиторий
    
-   Клонируем репозиторий:   `git clone https://github.com/Peca2003/Learning_Logs.git`
+   `git clone https://github.com/SofaVasilenkoo/Learning-Log.git`
 
-3. Создание виртуального окружения
+2. Создаем виртуальное окружение
 
-   Открываем проект в PyCharm.
+   `python3 -m venv venv`
 
-   Создаем виртуальное окружение:   `python3 -m venv venv`
+   Активируем виртуальное окружение на Windows:   `venv/Scripts/activate`
 
-   Активизируем виртуальную среду:   `source venv/bin/activate`
+   На MacOS и Linux: `source venv/bin/activate`
    
-4. Установка зависимостей
+3.  Установим зависимости
 
-   Установим зависимости:   `pip install -r requirements.txt`
+   `pip install -r requirements.txt`
    
-5. Запуск сервера
+5. Запустим сервер
 
-   Запустим сервер:   `python manage.py runserver`
+   `python manage.py runserver`
