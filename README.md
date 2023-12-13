@@ -17,7 +17,7 @@
    
 3.  Установим зависимости
 
-   `pip install -r requirements.txt`
+    `pip install -r requirements.txt`
    
 5. Запустим сервер
 
